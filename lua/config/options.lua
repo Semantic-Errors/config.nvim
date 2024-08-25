@@ -14,6 +14,7 @@ opt.expandtab = true
 
 
 opt.hlsearch = true
+opt.ignorecase = true
 
 vim.api.nvim_create_autocmd('TextYankPost', {
     desc = 'Highlight when yanking (copying) text',
